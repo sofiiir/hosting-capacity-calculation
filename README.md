@@ -35,9 +35,7 @@ A comprehensive list of this project's data sources can be found on the [GitHub 
 
 **final**: Final hosting capacity calculation performed on each IOU. Notebooks differ in the application of customer use data onto generation values (because each IOU stores the data differently). For example, PG&E's customer breakdown had to be coverted from counts to percentages first.
 
-**initial_attempts:** Contains different versions of hosting capacity calculations, one based on PG&E and the other on SDGE IOUs.
-
-**validation:** Notebooks with different attempt at calculation validation (graphing, comparison with Brockway's results).
+**initial_attempts:** Contains different versions of hosting capacity calculations, one based on PG&E and the other on SDGE IOUs. Specifically, comparing methodology internally, comparing with Brockway et al.'s results, and graphing.
 - **images:** Contains example plot from Brockway et al., which `pge_brockway_check.ipynb` attempts to replicate.
 - **outputs:** Log outputs from running .py scripts in tmux.
 - **py scripts:** .py scripts used to run hosting capacity calculations on different areas of California. This was completed as part of the validation step.
