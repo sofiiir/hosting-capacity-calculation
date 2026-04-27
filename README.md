@@ -8,6 +8,10 @@ A comprehensive list of this project's data sources can be found on the [GitHub 
 
 ```
 ├── README.md
+├── final
+│   ├── pge.ipynb
+│   ├── sce.ipynb
+│   └── sdge.ipynb
 ├── images
 │   └── pg&e_pv.png
 ├── outputs
@@ -15,23 +19,27 @@ A comprehensive list of this project's data sources can be found on the [GitHub 
 │   ├── host_cap_run_all.log
 │   └── host_cap_run_all_fresno.log
 ├── py scripts
-│   ├── fresno_all.py
-│   ├── marin_all.py
-│   └── marin_calc.py
+│   ├── fresno_county_all_vars.py
+│   ├── marin_county_all_vars.py
+│   └── marin_county_gencap.py
 ├── renditions
-│   ├── pge-hosting-capacity.ipynb
-│   └── sdge-hosting-capacity.ipynb
+│   ├── pge_explore.ipynb
+│   ├── pge_hosting_capacity.ipynb
+│   └── sdge_hosting_capacity.ipynb
 └── validation
     ├── host_cap_investigation.ipynb
     ├── marin_check.ipynb
     └── pge_brockway_check.ipynb
 ```
 ### Folder description
+
+**final**: Final hosting capacity calculation performed on each IOU. Notebooks differ in the application of customer use data onto generation values (because each IOU stores the data differently). For example, PG&E's customer breakdown had to be coverted from counts to percentages first.
+
 **images:** Contains example plot from Brockway et al., which `pge_brockway_check.ipynb` attempts to replicate.
 
 **outputs:** Log outputs from running .py scripts in tmux.
 
-**py scripts:** .py scripts used to rund hosting capacity calculations on different areas of California.
+**py scripts:** .py scripts used to run hosting capacity calculations on different areas of California. This was completed as part of the validation step.
 
 **renditions:** Contains different versions of hosting capacity calculations, one based on PG&E and the other on SDGE IOUs.
 
