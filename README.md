@@ -14,10 +14,9 @@ A comprehensive list of this project's data sources can be found on the [GitHub 
 ```
 ## File descriptons
 
-Each notebook, named after its respective utility, contains hosting capacily calculations for generation capacity with and without operational flex, 
+Each notebook, named after its respective utility, contains household-level hosting capacily calculations for generation capacity with and without operational flex, solar photovolatic with and without operational flex, and load capacity. 
 
-
-
+To run this code, building point geometries (with information on the number of residential units) and ICA utility data is necessary.
 
 ## Contributors
 - [Sofia Sarak](https://github.com/sofiasarak)
